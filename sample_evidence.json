@@ -1,0 +1,45 @@
+{
+  "week": 36,
+  "evidence": {
+    "A_momentum": {
+      "weeks_of_history": 36,
+      "sharpe_full": -0.85,
+      "sharpe_last_13w": -2.66,
+      "drawdown_pct": -4.51,
+      "drawdown_vs_normal": 1.87,
+      "mean_shift_t_stat": -0.9,
+      "hit_rate_last_13w": 0.31,
+      "hit_rate_before": 0.48
+    },
+    "B_stat_arb": {
+      "weeks_of_history": 36,
+      "sharpe_full": 2.37,
+      "sharpe_last_13w": 5.8,
+      "drawdown_pct": -0.55,
+      "drawdown_vs_normal": 0.24,
+      "mean_shift_t_stat": 1.36,
+      "hit_rate_last_13w": 0.85,
+      "hit_rate_before": 0.57
+    },
+    "C_event": {
+      "weeks_of_history": 36,
+      "sharpe_full": 0.24,
+      "sharpe_last_13w": -3.76,
+      "drawdown_pct": -6.95,
+      "drawdown_vs_normal": 1.94,
+      "mean_shift_t_stat": -2.38,
+      "hit_rate_last_13w": 0.23,
+      "hit_rate_before": 0.65
+    },
+    "D_macro": {
+      "weeks_of_history": 36,
+      "sharpe_full": 3.95,
+      "sharpe_last_13w": 6.55,
+      "drawdown_pct": 0.0,
+      "drawdown_vs_normal": -0.0,
+      "mean_shift_t_stat": 0.8,
+      "hit_rate_last_13w": 0.69,
+      "hit_rate_before": 0.61
+    }
+  }
+}

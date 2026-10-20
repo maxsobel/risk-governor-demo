@@ -1,0 +1,93 @@
+
+[week 36] agent wants to CLOSE C_event: mean shifted (t=-2.38) and drawdown is 1.94x normal
+  -> approved (auto)
+
+=== decision log ===
+wk  16 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 0.42x normal, t=0.0)
+wk  16 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  16 C_event: Healthy  conf 0.70  no warning signs
+wk  16 D_macro: Healthy  conf 0.70  no warning signs
+wk  20 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 0.94x normal, t=0.0)
+wk  20 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  20 C_event: Unlucky  conf 0.60  losing but within normal range (dd 0.44x normal, t=0.0)
+wk  20 D_macro: Healthy  conf 0.70  no warning signs
+wk  24 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 1.05x normal, t=0.0)
+wk  24 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.56x normal, t=0.0)
+wk  24 C_event: Unlucky  conf 0.60  losing but within normal range (dd 0.64x normal, t=0.0)
+wk  24 D_macro: Healthy  conf 0.70  no warning signs
+wk  28 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 1.04x normal, t=-1.33)
+wk  28 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  28 C_event: Unlucky  conf 0.60  losing but within normal range (dd 1.06x normal, t=-1.85)
+wk  28 D_macro: Healthy  conf 0.70  no warning signs
+wk  32 A_momentum: cut to 50% on agent recommendation
+wk  32 C_event: STOPOUT cut to 50% (dd -5.2%)
+wk  32 A_momentum: Watch    conf 0.60  one warning sign (t=-0.53, dd 1.61x normal)
+wk  32 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  32 C_event: Watch    conf 0.60  one warning sign (t=-2.21, dd 1.49x normal)
+wk  32 D_macro: Healthy  conf 0.70  no warning signs
+wk  36 C_event: CLOSED on agent recommendation
+wk  36 A_momentum: Watch    conf 0.60  one warning sign (t=-0.9, dd 1.87x normal)
+wk  36 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  36 C_event: Broken   conf 0.80  mean shifted (t=-2.38) and drawdown is 1.94x normal
+wk  36 D_macro: Healthy  conf 0.70  no warning signs
+wk  40 A_momentum: Watch    conf 0.60  one warning sign (t=-1.75, dd 2.29x normal)
+wk  40 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  40 D_macro: Unlucky  conf 0.60  losing but within normal range (dd 0.49x normal, t=-0.73)
+wk  44 A_momentum: Watch    conf 0.60  one warning sign (t=-0.43, dd 2.05x normal)
+wk  44 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  44 D_macro: Healthy  conf 0.70  no warning signs
+wk  48 A_momentum: Watch    conf 0.60  one warning sign (t=-0.78, dd 2.38x normal)
+wk  48 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.48x normal, t=-0.12)
+wk  48 D_macro: Unlucky  conf 0.60  losing but within normal range (dd 0.54x normal, t=-1.68)
+wk  52 A_momentum: Watch    conf 0.60  one warning sign (t=-0.18, dd 2.41x normal)
+wk  52 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  52 D_macro: Healthy  conf 0.70  no warning signs
+wk  56 A_momentum: Watch    conf 0.60  one warning sign (t=-0.3, dd 2.57x normal)
+wk  56 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.73x normal, t=-1.23)
+wk  56 D_macro: Healthy  conf 0.70  no warning signs
+wk  60 A_momentum: Watch    conf 0.60  one warning sign (t=1.0, dd 1.56x normal)
+wk  60 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  60 D_macro: Healthy  conf 0.70  no warning signs
+wk  64 B_stat_arb: cut to 50% on agent recommendation
+wk  64 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 1.34x normal, t=1.75)
+wk  64 B_stat_arb: Watch    conf 0.60  one warning sign (t=-2.12, dd 0.83x normal)
+wk  64 D_macro: Healthy  conf 0.70  no warning signs
+wk  68 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 1.1x normal, t=2.86)
+wk  68 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.69x normal, t=-0.91)
+wk  68 D_macro: Unlucky  conf 0.60  losing but within normal range (dd 0.5x normal, t=0.02)
+wk  72 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 0.97x normal, t=2.3)
+wk  72 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.69x normal, t=-1.16)
+wk  72 D_macro: Unlucky  conf 0.60  losing but within normal range (dd 0.6x normal, t=-1.85)
+wk  76 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 1.05x normal, t=0.9)
+wk  76 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.64x normal, t=-0.51)
+wk  76 D_macro: Healthy  conf 0.70  no warning signs
+wk  80 A_momentum: Unlucky  conf 0.60  losing but within normal range (dd 1.23x normal, t=-0.2)
+wk  80 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  80 D_macro: Healthy  conf 0.70  no warning signs
+wk  84 A_momentum: Watch    conf 0.60  one warning sign (t=-1.07, dd 1.54x normal)
+wk  84 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  84 D_macro: Healthy  conf 0.70  no warning signs
+wk  88 A_momentum: Watch    conf 0.60  one warning sign (t=-1.96, dd 1.77x normal)
+wk  88 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  88 D_macro: Healthy  conf 0.70  no warning signs
+wk  92 A_momentum: Watch    conf 0.60  one warning sign (t=-0.72, dd 1.56x normal)
+wk  92 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  92 D_macro: Healthy  conf 0.70  no warning signs
+wk  96 A_momentum: Watch    conf 0.60  one warning sign (t=-1.14, dd 2.01x normal)
+wk  96 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk  96 D_macro: Healthy  conf 0.70  no warning signs
+wk 100 A_momentum: Watch    conf 0.60  one warning sign (t=-0.56, dd 2.1x normal)
+wk 100 B_stat_arb: Unlucky  conf 0.60  losing but within normal range (dd 0.43x normal, t=-0.82)
+wk 100 D_macro: Healthy  conf 0.70  no warning signs
+wk 104 A_momentum: Watch    conf 0.60  one warning sign (t=-0.77, dd 2.26x normal)
+wk 104 B_stat_arb: Healthy  conf 0.70  no warning signs
+wk 104 D_macro: Unlucky  conf 0.60  losing but within normal range (dd 0.42x normal, t=-1.12)
+
+=== scorecard (uses hidden truth) ===
+A_momentum  truth: never broken      final: active  capital 0.963 | stopout-only baseline closes it: never
+B_stat_arb  truth: never broken      final: active  capital 1.139 | stopout-only baseline closes it: never
+C_event     truth: broken at wk 30   final: closed  capital 1.029 | stopout-only baseline closes it: wk 37
+            [wk  36 C_event: CLOSED on agent recommendation]
+D_macro     truth: never broken      final: active  capital 1.347 | stopout-only baseline closes it: never
+
+360 checkpoints saved. State at week 52 (C_event): {'capital': 1.029, 'peak': 1.106, 'alloc': 0.0, 'status': 'closed'}
